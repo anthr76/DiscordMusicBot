@@ -17,6 +17,7 @@
           pkgs.nodePackages.pnpm
           pkgs.python3
           pkgs.podman
+          pkgs.typescript
         ];
         shellHook = ''
           export LD_LIBRARY_PATH=${pkgs.libuuid.out}/lib:$LD_LIBRARY_PATH
@@ -28,6 +29,7 @@
           pkgs.nodejs
           pkgs.nodePackages.pnpm
           pkgs.python3
+          pkgs.typescript
         ];
         shellHook = ''
           export LD_LIBRARY_PATH=${pkgs.libuuid.out}/lib:$LD_LIBRARY_PATH
