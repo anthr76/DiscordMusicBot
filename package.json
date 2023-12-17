@@ -27,7 +27,7 @@
     "discord.js": "^14.6.0",
     "distube": "^4.0.4",
     "opusscript": "^0.1.0",
-    "patch-package": "^6.4.7",
+    "patch-package": "^8.0.0",
     "sequelize": "^6.25.2",
     "sodium": "^3.0.2",
     "sqlite3": "^5.1.2",
